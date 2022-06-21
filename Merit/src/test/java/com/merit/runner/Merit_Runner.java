@@ -10,7 +10,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 
-@CucumberOptions(features = "C:\\Users\\ARAVINTH\\OneDrive\\Desktop\\Project\\merge\\Merit\\src\\test\\java\\com\\merit\\features", 
+@CucumberOptions(features = "C:\\Users\\ARAVINTH\\git\\Merit_Final\\Merit\\src\\test\\java\\com\\merit\\features", 
 glue = {"com.merit.stepDefinition"}, plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html","html:test-outout","rerun:target/rerun.txt"}, 
 monochrome = true,dryRun = false
 		)
